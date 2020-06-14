@@ -15,3 +15,22 @@ if(ch=="a" || ch=="e" || ch=="i" || ch=="o" || ch=="u" ){
 }else{
     alert("false")
 }
+
+nn=prompt("Enter number");
+
+if(nn<0){
+    alert("number is nagative")
+}else if(nn>0){
+    alert("number is is posative")
+}else{
+    alert("number is 0")
+}
+
+pass=prompt("enter password")
+
+if(pass=="gam001"){
+    alert("right password");
+
+}else{
+    alert("try again");
+}
