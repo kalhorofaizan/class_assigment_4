@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>  
+       .bo{
+        display: flex;
+        flex-direction: column;
+       }
+    .container{
+        display: flex;
+        flex-direction: row
+    }
+    .box{
+        height: 200;
+        display: flex;
+        flex-direction: column;
+        
+    }
+</style>
+</head>
+<body>
+    <div class="bo" >
+        <div class="container">  
+            <div  class="box" >
+                <img src="https://static.toiimg.com/photo/73078527.cms" alt="" height="100" width="100">
+            <a href="#" script="marginTop:10px" onClick="show()" > link to image</a>
+        </div>
+    
+        <table>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+              <th>delete</th>
+            </tr>
+            <tr id="row1" >
+              <td>faizan</td>
+              <td>ullah</td>
+              <td>50</td>
+              <td><button onclick="rowdelete('row1')"  >delete</button></td>
+            </tr>
+            <tr  id="row2" >
+              <td>hassan</td>
+              <td>ali</td>
+              <td>94</td>
+              <td><button onclick="rowdelete('row2')"  >delete</button></td>
+            </tr>
+            <tr id="row3" >
+                <td>sddsa</td>
+                <td>fff</td>
+                <td>50</td>
+                <td><button onclick="rowdelete('row3')"  >delete</button></td>
+              </tr>
+              <tr id="row4" >
+                <td>sad</td>
+                <td>saddsa</td>
+                <td>50</td>
+                <td><button onclick="rowdelete('row4')"  >delete</button></td>
+              </tr>
+          </table>
+
+
+        <img src="./bulb2.png" id="bulb" height="200" onmouseover="mouseover();" onmouseout="mouseout();" alt=""/>
+          <div>
+            <button onclick="add()" style="height: 30px;width: 40px;" >+</button>
+            <spam id="count" >0</spam>
+            <button onclick="sub()" style="height: 30px;width: 40px;"    >-</button>
+          </div>
+       
+       
+    </div>
+    
+    <script src="./app.js" ></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 print("task 1");
 printDate();
 print("task 2");
-pname("faizan","kalhoro");
+pname("hassan","ali");
 print("task 3");
 print(sum(1,2));
 print("task 4");
